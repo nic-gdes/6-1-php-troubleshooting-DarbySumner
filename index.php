@@ -38,10 +38,11 @@
 
 <?php
   // Question 5
+  $name = "Ben";
   function greet($name) {
     echo "Hello, " . $name;
   }
-  greet();
+  greet($name);
 ?>
 
 <hr />
@@ -63,7 +64,7 @@
 <?php
   // Question 7
   $count = 0;
-  echo 'Count: ' + ++$count;
+  echo "$count";
 ?>
 
 <hr />
@@ -71,8 +72,8 @@
 
 <?php
   // Question 8
-  define("GREETING", "Hello, everyone.");
-  echo GREETINGS;
+  define("greeting", "Hello, everyone.");
+  echo "greeting";
 ?>
 
 <hr />
@@ -91,6 +92,11 @@
 
 <?php
   // Question 10
-  $user = array("name" => "John Doe", "age" => 30);
-  echo $user[name];
+  $person = array (
+    $name = ("John Doe"),
+    $age = (30),
+  );
+
+  $user = implode ($person);
+  echo $user;
 ?>
