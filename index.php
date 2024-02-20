@@ -11,7 +11,7 @@
 <?php
   // Question 2
   $greeting = "Good morning";
-  echo $Greeting;
+  echo $greeting;
 ?>
 
 <hr />
@@ -21,7 +21,7 @@
   // Question 3
   $firstName = "John";
   $lastName = "Doe";
-  echo "Name: " + $firstName + " " + $lastName;
+  echo  "$firstName" . "$lastName";
 ?>
 
 <hr />
