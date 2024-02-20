@@ -1,7 +1,7 @@
 <h3>Question 1</h3>
 <?php
   // Question 1
-  echo "Hello, World <br />"
+  echo "Hello, World <br />";
   echo "Hello back";
 ?>
 
@@ -29,7 +29,7 @@
 
 <?php
   // Question 4
-  $colors = array("Red", "Green", "Blue";
+  $colors = array("Red", "Green", "Blue");
   echo $colors[1];
 ?>
 
