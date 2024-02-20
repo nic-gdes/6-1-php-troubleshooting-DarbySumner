@@ -10,7 +10,7 @@
 
 <?php
   // Question 2
-  $greeting = "Good morning";
+  $greeting = "good morning";
   echo $greeting;
 ?>
 
